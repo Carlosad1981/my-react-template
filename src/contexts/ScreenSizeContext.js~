@@ -1,0 +1,10 @@
+import {createContext} from "react";
+
+/**
+ * Author: Carlos Duarte
+ * Provedor de contexto para armazenar o tamanho da tela.
+ *
+ * @property {boolean} isSmallScreen - Indica se a tela atual é pequena ou grande.
+ *
+ */
+export function ScreenSizeContext = createContext(false);

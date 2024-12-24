@@ -1,0 +1,8 @@
+.drawer-menu {
+    width: 300px !important;
+    max-width: calc(100% - 50px) !important;
+}
+
+.drawer-body {
+    padding: 10px;
+}
