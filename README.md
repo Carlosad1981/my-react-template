@@ -45,7 +45,7 @@ repositório.
 
   Se você preferir usar o NPM para iniciar o seu projeto, basta executar:
     ```bash
-    npx criar-meu-layout meu-app
+    npx criar-app meu-app
     cd meu-app
     npm run dev
     ```
