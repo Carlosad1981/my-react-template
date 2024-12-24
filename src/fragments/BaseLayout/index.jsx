@@ -13,7 +13,7 @@ const BaseLayout = ({ children }) => {
             <HeaderApp />
             <div className="contentStyle">
                 {!isSmallScreen && (
-                    <aside style={{ backgroundColor: 'rgba(128, 128, 128, 0.1)' }}>
+                    <aside style={{ backgroundColor: 'rgba(128, 128, 128, 0.1)', overflowY: "auto" }}>
                         <SidebarApp />
                     </aside>
                 )}
